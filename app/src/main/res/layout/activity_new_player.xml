@@ -19,13 +19,20 @@
                 android:layout_marginHorizontal="5dp"
                 tools:srcCompat="@mipmap/guest" />
 
-            <EditText
-                android:id="@+id/edText1"
-                android:layout_width="300dp"
-                android:layout_height="match_parent"
-                android:layout_span="2"
-                android:hint="Name"
-                android:inputType="text" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/TiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditText"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Name"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
 
 
         </TableRow>
@@ -36,14 +43,21 @@
             android:layout_marginVertical="5dp">
 
 
-            <EditText
-                android:id="@+id/edText2"
-                android:layout_width="300dp"
-                android:layout_height="match_parent"
-                android:layout_column="1"
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/TiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_span="2"
-                android:hint="Phonetic Name"
-                android:inputType="text" />
+                android:layout_column="1">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditText"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Phonetic Name"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
 
 
         </TableRow>
@@ -54,14 +68,20 @@
             android:layout_marginVertical="5dp">
 
 
-            <EditText
-                android:id="@+id/edText3"
-                android:layout_width="300dp"
-                android:layout_height="match_parent"
-                android:layout_column="1"
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/TiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_span="2"
-                android:hint="Nickname"
-                android:inputType="text" />
+                android:layout_column="1">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditText"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="Nickname"
+                    android:hint="Nickname"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
         </TableRow>
 
         <TableRow
@@ -140,13 +160,20 @@
                 android:layout_marginRight="10dp"
                 tools:srcCompat="@drawable/correo" />
 
-            <EditText
-                android:id="@+id/edText5"
-                android:layout_width="300dp"
-                android:layout_height="match_parent"
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/TiLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_span="2"
-                android:hint="E-Mail"
-                android:inputType="text" />
+                android:layout_column="1">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditText"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="Text"
+                    android:hint="E-Mail"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
 
 
         </TableRow>
