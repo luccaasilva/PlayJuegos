@@ -12,14 +12,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_play_juegos)
         val jugador = findViewById(R.id.bt2) as Button
         jugador.setOnClickListener { lanzarNewPlayer() }
-
+        val preferences = findViewById<Button>(R.id.bt3)
+        preferences.setOnClickListener { lanzarPreferences() }
     }
-    fun lanzarNewPlayer() {
+
+    private fun lanzarNewPlayer() {
         val i = Intent(this, NewPlayer::class.java)
         startActivity(i)
     }
-    fun lanzarPreferences() {
-        val i = Intent(this, Preferences::class.java)
+
+    private fun lanzarPreferences() {
+        val i = Intent(this, preferences::class.java)
         startActivity(i)
     }
 

@@ -21,12 +21,10 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/TiLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_span="2">
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/textInputEditText"
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
@@ -45,13 +43,11 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/TiLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_span="2"
                 android:layout_column="1">
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/textInputEditText"
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
@@ -69,16 +65,16 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/TiLayout"
+                android:id="@+id/TiLayou"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_span="2"
                 android:layout_column="1">
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/textInputEditText"
+                    android:id="@+id/textInputEditTexta"
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:inputType="Nickname"
+                    android:inputType="text"
                     android:hint="Nickname"
                     />
             </com.google.android.material.textfield.TextInputLayout>
@@ -170,7 +166,7 @@
                     android:id="@+id/textInputEditText"
                     android:layout_width="320dp"
                     android:layout_height="wrap_content"
-                    android:inputType="Text"
+                    android:inputType="text"
                     android:hint="E-Mail"
                     />
             </com.google.android.material.textfield.TextInputLayout>
