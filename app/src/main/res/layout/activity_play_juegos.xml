@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -19,37 +20,46 @@
             android:layout_marginTop="100dp"
             android:text="Play Juegos" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/bt1"
             style="@style/button"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="PLAY" />
+            android:text="PLAY"
+            app:backgroundTint="@color/teal_200"
+            app:cornerRadius="30dp"
+            />
 
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/bt2"
             style="@style/button"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            app:backgroundTint="@color/teal_200"
+            app:cornerRadius="30dp"
             android:text="NEW PLAYER" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/bt3"
             style="@style/button"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            app:backgroundTint="@color/teal_200"
+            app:cornerRadius="30dp"
             android:text="PREFERENCIES" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/bt4"
             style="@style/button"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            app:backgroundTint="@color/teal_200"
+            app:cornerRadius="15dp"
             android:text="ABOUT" />
 
     </LinearLayout>
