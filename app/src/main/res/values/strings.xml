@@ -1,3 +1,16 @@
 <resources>
+    <string name="note1">ROL</string>
+    <string name="note2">Accion</string>
+    <string name="note3">RTS</string>
+    <string name="note4">MMO</string>
+    <string name="note5">Dispatos</string>
+    <string name="note6">Musical</string>
+    <string name="note7">Aventura</string>
+    <string name="note8">Deportes</string>
+    <string name="note9">Estrategia</string>
+    <string name="note10">Lucha</string>
+    <string name="note11">Simulacion</string>
+    <string name="note12">Waifus</string>
+
     <string name="app_name">PlayJuegos</string>
 </resources>

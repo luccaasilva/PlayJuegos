@@ -14,6 +14,27 @@
         android:theme="@style/Theme.PlayJuegos"
         tools:targetApi="31">
         <activity
+            android:name=".searchViewer"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".searchView"
+            android:exported="false" />
+        <activity
+            android:name=".mainMenu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".generos"
             android:exported="true">
             <intent-filter>
